@@ -1,0 +1,15 @@
+/* src/styles/index.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #EEFCFD; /* Color claro */
+    color: #0F2F3D; /* Color oscuro */
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}

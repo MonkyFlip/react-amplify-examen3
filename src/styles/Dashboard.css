@@ -1,0 +1,63 @@
+.dashboard-container {
+    padding: 20px;
+}
+
+h1 {
+    color: #3BBBD5;
+    /* Azul vibrante */
+}
+
+.users-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.users-table th,
+.users-table td {
+    border: 1px solid #CCC;
+    padding: 10px;
+    text-align: center;
+}
+
+.users-table th {
+    background-color: #8DA4CD;
+    /* Azul */
+    color: white;
+}
+
+.users-table tr:nth-child(even) {
+    background-color: #F4F6FA;
+    /* Fondo alternativo */
+}
+
+.action-btn {
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-btn {
+    background-color: #3BBBD5;
+}
+
+.edit-btn:hover {
+    background-color: #2A99B0;
+}
+
+.delete-btn {
+    background-color: #FF5C5C;
+}
+
+.delete-btn:hover {
+    background-color: #D14D4D;
+}

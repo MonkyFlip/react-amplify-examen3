@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background-color: #EEFCFD;
+    /* Fondo claro */
+    color: #0F2F3D;
+    /* Texto oscuro */
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.app {
+    text-align: center;
+    padding: 20px;
+}
